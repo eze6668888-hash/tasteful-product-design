@@ -4,6 +4,36 @@
 
 它把审美判断连接到产品用途和结构依据，适合概念设计、产品改版与方案讨论。支持根据项目区分实体产品与数字产品；不把单一配色、造型或艺术流派当作所有产品的答案。
 
+<a id="blanket-case"></a>
+
+## 实际案例：雾岸与日弧
+
+同一条需求，两种不同的毛毯设计方向。这个案例在 Codex 中使用本 Skill 完成：每款各研究 **2 款真实竞品**，推导艺术方向，生成效果图，检查外观结构一致性，再绘制对应的简单结构图。
+
+> 示例需求：用这个 Skill 设计两款成人居家毛毯，用于沙发披盖与午睡。
+
+### 效果图
+
+| 雾岸 · Mist Shore | 日弧 · Sun Arc |
+| --- | --- |
+| ![雾岸毛毯：暖米白底与两条雾绿横带](examples/blanket-designs/concept-a.png) | ![日弧毛毯：钴蓝底与四个杏橙弧形色块](examples/blanket-designs/concept-b.png) |
+| **安静的织物肌理**：暖米白与雾绿横带，强调低对比节奏。 | **鲜明的几何节奏**：蓝橙对比与交替朝向的弧形，让毛毯成为空间焦点。 |
+| 设计目标：130 × 180 cm，羊毛单片织物，四边毯边针、无流苏。 | 设计目标：140 × 180 cm，棉提花单片织物，仅短边留流苏、长边窄折边。 |
+| 竞品：[Muuto Rhythm](https://professionals.muuto.com/product/Rhythm-Throw)、[Frette Zaira](https://eu.frette.com/en_IT/zaira-throw-taupe.html)。 | 竞品：[Slowdown Studio Pierre](https://slowdownstudio.com/collections/all/products/pierre-throw)、[Wallace Sewell Erno](https://wallacesewell.com/products/erno-throw)。 |
+
+### 核查后的简单结构图
+
+| 雾岸：毯体、横带与四边收口 | 日弧：毯体、图形、流苏与长边 |
+| --- | --- |
+| ![雾岸外观与收边结构示意](examples/blanket-designs/concept-a-structure.png) | ![日弧外观与收边结构示意](examples/blanket-designs/concept-b-structure.png) |
+| [查看可编辑 SVG](examples/blanket-designs/concept-a-structure.svg) | [查看可编辑 SVG](examples/blanket-designs/concept-b-structure.svg) |
+
+**核查内容：**雾岸的两条全宽横带与连续窄针脚；日弧的四个弧形色块、朝向和仅在短边出现的流苏。结构图的编号与关系对应实际成图。
+
+这些图片是 **AI 概念效果图**，不是实物照片。尺寸与材质是设计目标；本轮检查覆盖可见的外观一致性，背面、精确曲线、真实纤维、尺寸和耐洗性仍需制版与打样。本案例展示 Codex 中的实际产出，不代表已经完成 Claude Code 的同流程实测。
+
+[查看完整案例与来源](examples/blanket-designs/design-brief.md) · [下载五页 PDF 提案](examples/blanket-designs/blanket-design-proposals.pdf) · [雾岸生图提示词](examples/blanket-designs/concept-a-prompt.txt) · [日弧生图提示词](examples/blanket-designs/concept-b-prompt.txt)
+
 ## 工作流程
 
 ```mermaid
@@ -50,6 +80,8 @@ Codex 与 Claude Code 共用同一份指令。**安装 Skill 不会自动给软�
 tasteful-product-design/
 ├── README.md
 ├── .gitignore
+├── examples/
+│   └── blanket-designs/      案例效果图、结构图、报告和提示词
 └── skills/
     └── tasteful-product-design/
         ├── SKILL.md
@@ -134,6 +166,6 @@ $tasteful-product-design
 
 入口只使用通用的 `name` 与 `description` 元数据，正文使用 Markdown 和相对引用。不绑定模型、专有命令注入、固定插件、技术栈或本机路径。安装和调用方式分别遵循对应平台文档。
 
-本仓库的格式与引用可以独立检查；完整工作流的效果还取决于模型、资料和工具。不能仅凭格式检查声称两端都已完成真实产品的端到端生图验证。
+本仓库已完成格式与引用检查，并在 Codex 中跑通上述毛毯案例。Claude Code 的安装与调用方式有文档支持，但尚未进行同流程实测。实际效果取决于模型、资料和已连接的工具；效果图与结构示意不替代实物验证。
 
 规范参考：[OpenAI Skills](https://learn.chatgpt.com/docs/build-skills)、[Claude Code Skills](https://code.claude.com/docs/en/skills)、[Claude Agent Skills 结构说明](https://platform.claude.com/docs/en/agents-and-tools/agent-skills/overview)。安装文档核对日期：2026-11-14。
