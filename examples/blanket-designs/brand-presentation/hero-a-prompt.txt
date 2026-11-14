@@ -1,0 +1,13 @@
+Use case: compositing
+Asset type: premium ecommerce lifestyle hero photograph, landscape 3:2.
+Input image 1 is the exact blanket product to preserve, not a general style reference.
+
+Re-photograph this SAME blanket naturally draped over the broad arm and front seat edge of a low warm-gray sofa in a quiet, believable apartment corner. The blanket is the visual focal point and fills much of the frame. Its lower section hangs toward the floor, so BOTH sage horizontal bands, their narrow ivory separation, and the ivory hem below them are clearly visible. Show one continuous thin, supple blanket, gently folded with convincing weight, rather than a thick duvet or multiple blankets. Keep the complete lower edge in frame.
+
+Product invariants: keep its exact warm ivory base, its two low-contrast mist-sage full-width horizontal bands in the lower portion, the lower band slightly deeper sage than the upper band, the narrow warm ivory gap, and the ivory lower margin. Preserve the pattern proportions as shown in the reference. Fine sage blanket stitches along all four edges, with only the naturally visible edges shown. Same soft lightly brushed textile, subtle woven grain, no redesign, no extra stripes, no grid, no fringe, no thick binding, no seams across the face, no logo. Preserve the source color relationship despite the scene lighting.
+
+Scene and lighting: restrained real apartment with a warm-gray low upholstered sofa, pale wood or light stone floor, quiet warm-neutral wall. Gentle directional daylight and soft window shadows provide dimensional textile light and shadow. Use at most one unobtrusive background object if necessary. Natural photographic tonal range, visible midtones and textile texture, restrained color. Fabric warmth should remain ivory rather than yellow.
+
+Composition: high-end home textile ecommerce photography, camera at seated height with a slightly elevated three-quarter view, believable sofa/blanket scale, a clear dominant subject and calm negative space. Let soft folds reveal drape while keeping the two lower bands legible. Sofa and room support the blanket, not compete with it. Sophisticated natural framing and a tactile material feel. Output a landscape 3:2 photo.
+
+Avoid: any typography or invented brand copy, watermark, product collage, border, pure flat lay, overexposed creamy filter, excessive props, books or flower arrangements, artificial perfect symmetric staging, harsh HDR, thick quilted volume, a second blanket, altered number of stripes, altered lower pattern layout.
